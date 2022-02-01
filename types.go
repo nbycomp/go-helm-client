@@ -130,4 +130,7 @@ type ChartSpec struct {
 	// DryRun indicates whether to perform a dry run.
 	// +optional
 	DryRun bool `json:"dryRun,omitempty"`
+	// RepoURL is the URL of the repo from where the charts will be downloaded.
+	// +optional
+	RepoURL string `json:"repoURL,omitempty"`
 }
